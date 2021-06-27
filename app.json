@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Messaging",
+    "slug": "messaging",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vnstudio.messenger"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.vnstudio.messenger",
+      "versionCode": 1
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#000000",
+      "barStyle": "light-content"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Messaging App Used For Practical Purposes."
+  }
+}
